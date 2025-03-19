@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Json-curd</title>
+    <style>
+        .container > div{
+            border: 1px solid green;
+            padding: 10px;
+            margin: 5px;
+        }
+        .input{
+            padding: 10px;
+            text-align: center;
+        }
+        .input >*{
+            padding: 5px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="input">
+        <input type="text" placeholder="Title" id="title">
+        <input type="number" placeholder="price" id="price">
+        <input type="text" placeholder="category" id="category">
+        <button id="btn">Add Data</button>
+    </div>
+    <div class="container" id="container"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
